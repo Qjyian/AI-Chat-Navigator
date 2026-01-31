@@ -258,30 +258,10 @@ cd ai-chat-navigator
 
 ---
 
-## 📮 联系方式
-
-- **Issues**: [GitHub Issues](https://github.com/Qiyian/ai-chat-navigator/issues)
-- **讨论**: [Discussions](https://github.com/Qiyian/ai-chat-navigator/discussions)
-
----
-
-## 💡 未来计划
-
-- [ ] 支持 Perplexity AI
-- [ ] 支持 Poe
-- [ ] 消息书签功能
-- [ ] 对话历史导出
-- [ ] 快捷键支持
-- [ ] 消息标签和分类
-- [ ] 自定义主题编辑器
-- [ ] 发布到 Chrome Web Store
-
----
-
 <div align="center">
 
 **感谢使用 AI Chat Navigator！**
 
-Made with ❤️ by [Qiyian](https://github.com/Qiyian)
+Made with ❤️ by [wqj](https://github.com/Qiyian)
 
 </div>
