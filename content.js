@@ -409,8 +409,14 @@ class MultiPlatformChatNavigator {
   }
 
   extractMessageContent(element) {
-    const fullText = element.innerText?.trim() || '';
+    let fullText = element.innerText?.trim() || '';
     if (!fullText || fullText.length < 2) return null;
+    
+    // Gemini 更新后会在用户消息前添加"你说"前缀，去掉它
+    if (this.platform === 'gemini' && fullText.startsWith('你说')) {
+      fullText = fullText.substring(2).trim();
+      if (!fullText) return null;
+    }
     
     // 过滤常见的 UI 元素文本（ChatGPT 特有问题）
     const uiTexts = [
